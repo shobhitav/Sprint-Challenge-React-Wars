@@ -6,3 +6,24 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.ButtonPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Button {
+  color:  rgb(6, 4, 0);
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: max-content;
+  padding: 10px;
+  background-color: lightgoldenrodyellow;
+  opacity: 0.6;
+  font-size: large;
+  margin-bottom: 1%;
+  border: 1px solid rgb(255, 236, 236);
+  border-radius: 25%;
+  cursor: pointer;
+}
